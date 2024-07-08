@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(codioful-formerly-gradienta-m_7p45JfXQo-unsplash.jpg);
+    background-size: cover;
+    height: 10%;
+    width: 100%;
+}
+
+.container {
+    max-width: 750px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #fff;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    height: 80%;
+    width: 100%;
+    table-layout: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.form-group textarea {
+    height: 120px;
+    color: #fff;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-info,
+.social-links,
+.additional-info {
+    margin-top: 20px;
+}
+
+.contact-info h2,
+.social-links h2,
+.additional-info h2 {
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.contact-info p,
+.social-links a,
+.additional-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.map {
+    margin-top: 20px;
+    /* Add specific styling for your map here */
+    color: #fff;
+}

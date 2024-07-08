@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(codioful-formerly-gradienta-m_7p45JfXQo-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: transparent;
+            border: 1px solid #ccc;
+            table-layout: fixed;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 12px;
+            background-color: #323633;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .form-group button:hover {
+            background-color: #707299;
+        }
+        .form-group .register-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .form-group .register-link a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .form-group .register-link a:hover {
+            text-decoration: underline;
+        }
+        p{
+            color: #fff;
+        }
+        a{
+            color: #bd189c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login to Your Account</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+            <div class="form-group register-link">
+                <p>Don't have an account? <a href="http://127.0.0.1:5500/Project%20for%20intership/Registration.html">Register here</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

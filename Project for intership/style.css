@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* display: flex;
+    justify-content: space-around; */
+    /* align-items: center; */
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 79px;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: darkblue;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+.nav-link:hover{
+    color: black;
+    transition: 0.3s;
+}
+.nav-item{
+    color: #fff;
+    font-weight: 500;
+    padding: 35px;
+}
+.btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: black ;
+}
+.btn0:hover{
+    background-color: black;
+    transition: all 0.4s;
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    border: 3px solid black ;
+    outline: none;
+    transition: all 0.4s;
+    color: darkblue;
+}
+.btn1:hover{
+    background-color: black ;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+/* main section */
+.main{
+    background: url(studio-republic-fotKKqWNMQ4-unsplash.jpg)no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(7,7, 78);
+}
+.main input{
+    height: 70px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: black ;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+}
+.btn2:hover{
+    background-color: black ;
+    transition: all 0.4s;
+}
+.red{
+    color:black ;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 7);
+}
+.ceta .card:hover{
+    color: black ;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 10px 10px lightblue;
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130, 130, 231);
+    background: transparent;
+    border-radius: 5px;
+    color: rgb(130, 130, 231);
+    transition: all 0.4s;
+}
+.btn3:hover{
+    background-color: rgb(130, 130, 231);
+    color: white;
+    border: none;
+    transition: all 0.4s;
+}
+.resume{
+    background-image: linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)),url(E-learing.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.5rem;
+
+}
